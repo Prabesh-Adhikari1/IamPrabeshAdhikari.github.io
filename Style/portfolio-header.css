@@ -1,0 +1,40 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin-top: 65px;
+
+}
+.logo{
+  width:50px;
+}
+
+.logo1{
+width:100%;
+border-radius:30px;
+}
+.header-info{
+  width:600px;                /* expand to fill leftover space */
+  display: flex;
+  flex-direction: column;  /* stack children vertically */
+  justify-content: center; /* vertically center them within the header */
+  margin-left: 25px;
+  
+}
+.header-up{
+  margin-bottom: 0;
+  margin-top:10px;
+  height:30px;font-weight: 700; max-width: 600px;
+  font-family:sans-serif;font-size:42px;
+  letter-spacing: 3px; line-height: 1.3;
+}
+.header-down{
+  font-size:18px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color:rgb(96,96,96);
+}
+.header-down:hover{
+  color:black;
+  cursor: pointer;
+}

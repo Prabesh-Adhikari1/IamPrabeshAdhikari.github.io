@@ -1,0 +1,63 @@
+body{
+   background-color: rgb(203, 197, 186);
+}
+
+.Top{
+  margin-top:65px;
+}
+.about{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top:0;
+  column-gap: 60px;
+}
+.PClass{
+  text-align:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;font-weight: 700;
+  position: relative;
+  left:-95px;
+  
+}
+.PClass:hover{
+  color:blue;
+  cursor: crosshair;
+  text-decoration: line-through;
+}
+.aboutme{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+   letter-spacing: 3px; 
+  font-size: 65px;
+  color:black; 
+  position:absolute;
+  bottom:0;
+  top:130px;
+  left:285px;
+  right:30px;
+  
+}
+.discover{
+  color:rgb(96,96,96);
+}
+.prabesh1{
+ margin-left: 50px;
+}
+.info{
+  width:600px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 3px;
+  padding:10px;
+  text-align:auto;
+  border:2px solid whitesmoke;
+  box-shadow: inset 2px 3px 4px;
+}
+
+.prabesh{
+  width:350px;
+  height:450px;
+  
+}
+.about-preview{
+  margin-top:150px;
+}

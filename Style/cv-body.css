@@ -1,0 +1,139 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.cv-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.whole-body {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.right-section {
+  flex: 1;
+  background-color: white;
+  padding: 30px 40px;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+
+/* --- Header Section --- */
+.header-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cv-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 25px;
+}
+
+.cv-name {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.cv-address {
+  font-size: 14px;
+  color: rgb(80, 80, 80);
+  margin-top: 6px;
+}
+
+/* --- Section titles --- */
+.section {
+  margin-bottom: 25px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(4, 48, 88);
+  color: rgb(4, 48, 88);
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+  line-height: 1.5;
+}
+
+/* --- Lists --- */
+.list {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.list li {
+  font-size: 14px;
+  color: rgb(50, 50, 50);
+  margin-bottom: 6px;
+}
+
+/* --- Jobs --- */
+.job {
+  margin-bottom: 15px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 6px;
+}
+
+/* --- Education --- */
+.edu {
+  font-size: 14px;
+  color: rgb(60, 60, 60);
+  line-height: 1.4;
+}
+
+/* --- Dots for languages --- */
+.list li::after {
+  content: "";
+}
+
+/* --- Responsive for mobile --- */
+@media (max-width: 700px) {
+  .cv-main {
+    flex-direction: column;
+  }
+
+  .left-bar {
+    flex-direction: row;
+    justify-content: space-around;
+    writing-mode: horizontal-tb;
+    transform: none;
+    width: 100%;
+    height:auto;
+  }
+
+  .time-entry {
+    writing-mode: horizontal-tb;
+    transform: none;
+    margin: 10px;
+  }
+
+  .right-section {
+    padding: 20px;
+  }
+}
