@@ -143,6 +143,7 @@
 @media (max-width: 500px) {
   body{
     height:100vh;
+    margin: 0;
   }
   .mid-sec {
     position: static;  /* remove fixed offset */
@@ -185,6 +186,7 @@
   footer {
     position: static;
     margin-top: 40px;
+    bottom:0;
   }
   .explore,.welcome{
     margin:0;
